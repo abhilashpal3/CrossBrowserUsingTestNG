@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13967" started-at="2020-06-02T08:56:58Z" finished-at="2020-06-02T08:57:12Z">
+  <suite name="Suite" duration-ms="25120" started-at="2020-06-02T09:33:03Z" finished-at="2020-06-02T09:33:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="13967" started-at="2020-06-02T08:56:58Z" finished-at="2020-06-02T08:57:12Z">
+    <test name="chromeTestCases" duration-ms="9853" started-at="2020-06-02T09:33:03Z" finished-at="2020-06-02T09:33:13Z">
       <class name="CrossBrowserTesting.CrossBrowserTesting.VerifyTitle">
-        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:CrossBrowserTesting.CrossBrowserTesting.VerifyTitle@18be83e4]" name="verifyPageTitle" duration-ms="13932" started-at="2020-06-02T08:56:58Z" finished-at="2020-06-02T08:57:12Z">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:CrossBrowserTesting.CrossBrowserTesting.VerifyTitle@18be83e4]" name="verifyPageTitle" duration-ms="9826" started-at="2020-06-02T09:33:03Z" finished-at="2020-06-02T09:33:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+      </class> <!-- CrossBrowserTesting.CrossBrowserTesting.VerifyTitle -->
+    </test> <!-- chromeTestCases -->
+    <test name="firefoxTestCases" duration-ms="15239" started-at="2020-06-02T09:33:13Z" finished-at="2020-06-02T09:33:29Z">
+      <class name="CrossBrowserTesting.CrossBrowserTesting.VerifyTitle">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:CrossBrowserTesting.CrossBrowserTesting.VerifyTitle@6d4b1c02]" name="verifyPageTitle" duration-ms="15235" started-at="2020-06-02T09:33:13Z" finished-at="2020-06-02T09:33:29Z">
           <params>
             <param index="0">
               <value>
@@ -19,6 +34,6 @@
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
       </class> <!-- CrossBrowserTesting.CrossBrowserTesting.VerifyTitle -->
-    </test> <!-- Test -->
+    </test> <!-- firefoxTestCases -->
   </suite> <!-- Suite -->
 </testng-results>

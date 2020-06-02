@@ -1,12 +1,12 @@
 package CrossBrowserTesting.CrossBrowserTesting;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class VerifyTitle {
 
@@ -25,6 +25,15 @@ public class VerifyTitle {
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
 			driver.get("https://phptravels.com/demo/");
+
+			SoftAssert Assert = new SoftAssert();
+
+			String ActualUrl = driver.getCurrentUrl();
+			Assert.assertTrue(ActualUrl.contains("phptravels"));
+
+			Assert.assertAll();
+			driver.close();
+
 		}
 
 		else if (browserName.equalsIgnoreCase("firefox")) {
@@ -37,6 +46,13 @@ public class VerifyTitle {
 
 			driver.get("https://phptravels.com/demo/");
 
+			SoftAssert Assert = new SoftAssert();
+
+			String ActualUrl = driver.getCurrentUrl();
+			Assert.assertTrue(ActualUrl.contains("phptravels"));
+
+			Assert.assertAll();
+			driver.close();
 		}
 
 	}

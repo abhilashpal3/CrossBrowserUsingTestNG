@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25120" started-at="2020-06-02T09:33:03Z" finished-at="2020-06-02T09:33:29Z">
+  <suite name="Suite" duration-ms="37551" started-at="2020-06-02T10:16:57Z" finished-at="2020-06-02T10:17:35Z">
     <groups>
     </groups>
-    <test name="chromeTestCases" duration-ms="9853" started-at="2020-06-02T09:33:03Z" finished-at="2020-06-02T09:33:13Z">
+    <test name="chromeTestCases" duration-ms="10902" started-at="2020-06-02T10:16:57Z" finished-at="2020-06-02T10:17:08Z">
       <class name="CrossBrowserTesting.CrossBrowserTesting.VerifyTitle">
-        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:CrossBrowserTesting.CrossBrowserTesting.VerifyTitle@18be83e4]" name="verifyPageTitle" duration-ms="9826" started-at="2020-06-02T09:33:03Z" finished-at="2020-06-02T09:33:13Z">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:CrossBrowserTesting.CrossBrowserTesting.VerifyTitle@59fa1d9b]" name="verifyPageTitle" duration-ms="10874" started-at="2020-06-02T10:16:57Z" finished-at="2020-06-02T10:17:08Z">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- verifyPageTitle -->
       </class> <!-- CrossBrowserTesting.CrossBrowserTesting.VerifyTitle -->
     </test> <!-- chromeTestCases -->
-    <test name="firefoxTestCases" duration-ms="15239" started-at="2020-06-02T09:33:13Z" finished-at="2020-06-02T09:33:29Z">
+    <test name="firefoxTestCases" duration-ms="26625" started-at="2020-06-02T10:17:08Z" finished-at="2020-06-02T10:17:35Z">
       <class name="CrossBrowserTesting.CrossBrowserTesting.VerifyTitle">
-        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:CrossBrowserTesting.CrossBrowserTesting.VerifyTitle@6d4b1c02]" name="verifyPageTitle" duration-ms="15235" started-at="2020-06-02T09:33:13Z" finished-at="2020-06-02T09:33:29Z">
+        <test-method status="PASS" signature="verifyPageTitle(java.lang.String)[pri:0, instance:CrossBrowserTesting.CrossBrowserTesting.VerifyTitle@146ba0ac]" name="verifyPageTitle" duration-ms="26622" started-at="2020-06-02T10:17:08Z" finished-at="2020-06-02T10:17:35Z">
           <params>
             <param index="0">
               <value>
